@@ -5,7 +5,7 @@ metadata:
   name: iks-deploy-to-kubernetes
 spec:
   params:
-    - name: nombre
+    - name: provide-name
       default: "juancarlos"
     - name: ibmcloud-api
       description: the ibmcloud api
