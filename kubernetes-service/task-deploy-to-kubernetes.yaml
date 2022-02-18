@@ -42,7 +42,7 @@ spec:
       default: ""
     - name: pipeline-debug
       description: Pipeline debug mode. Value can be 0 or 1. Default to 0
-      default: "0"
+      default: "1"
   results:
     - name: app-url
       description: The running application's URL (obtained from APP_URL variable set by the executed script)
