@@ -96,6 +96,7 @@ spec:
           value: $(params.shuttle-properties-file)
         - name: PIPELINE_DEBUG
           value: $(params.pipeline-debug)
+ 
       script: |
         #!/bin/bash
         set -e -o pipefail
